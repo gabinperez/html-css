@@ -1,0 +1,16 @@
+thead th {
+    background-color: blue;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f0f0f0;
+}
+
+tbody td {
+    text-align: right;
+}
+
+tbody td:first-child {
+    text-align: left;
+}
