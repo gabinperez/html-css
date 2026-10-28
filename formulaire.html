@@ -6,12 +6,41 @@
     <title>Document</title>
 </head>
 <body>
-    <form> 
-        <label>Nom</label><input type="text"> name="nom"><br>
-        
-        <label 
-
-    </form>
+    <form action="https://digicode.cleverapps.io/utilisateurs/create" method="post">
+    <input type="hidden" name="idCreateur" value="Perez">
     
+<fieldset>
+Nom                         <input type="text" name="nom" id=""><br>
+<br>
+Prénom                      <input type="text" name="prenom" id=""><br>
+<br>
+Date de Naissance           <input type="date" name="dateNaissance" id=""><br>
+<br>
+Lieu de Naissance           <input type="text" name="lieuNaissance" id=""><br>
+<br>
+Département de naissance    <select name="departementNaissance" id="">
+                            <option value="34">Hérault</option>
+                            <option value="44">Loire Atlantique </option>
+                            <option value="75">Paris</option>
+                            </fieldset>
+                            </select> <br>
+                            <br>
+                            <fieldset>
+ Adresse<br>    
+<br>     
+ Numéro de Rue                           <input type="text" name="numeroRue" id=""><br>
+ <br>
+ Libellé de Rue                          <input type="text" name="libelleRue" id=""><br>
+  <br>
+ Code Postal                          <input type="text" name="codePostal" id=""><br>
+  <br>
+ Ville                           <input type="text" name="ville"><br>
+ </fieldset>
+ <br>
+<button type="submit">Valider</button><br>
+<br>
+<button type="reset">Effacer</button>
+</form>
+ </option>
 </body>
 </html>
