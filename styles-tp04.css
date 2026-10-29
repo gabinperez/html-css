@@ -1,0 +1,5 @@
+header { height: 120px; background: #eee; color: rgb(0, 102, 255) ;}
+nav    { height: 50px;  background: #ddd; color:rgb(216, 99, 206) ; }
+main   { height: 400px; background: #ccc; display: flex; color:rgb(14, 184, 43) ; }
+main > section { flex: 1; color: rgb(187, 151, 218); }
+footer { height: 80px;  background: #bbb; color: red;}
