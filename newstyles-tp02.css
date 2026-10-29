@@ -1,0 +1,38 @@
+html { background-color: #EFECCA; }
+
+h1 { color: red }
+h2 { color: blue; }
+h3 { color: red; }
+h4 { color: red; }
+
+
+        html { background-color: gainsboro; }
+
+        .menu {
+            list-style: none;
+            padding: 0;
+            width: flex;
+            margin-left: 40px;
+        }
+
+        .menu li a {    
+            display: block;
+            padding: 3px 16px;
+            border: 1px solid #660000;
+            background-color: red;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+
+
+        .menu li a:hover,
+        .menu li a:active,
+        .menu li a:focus {
+            background-color: greenyellow;
+        }
+
+        
+        .contact { color: blue; }
+        .menu li { display: inline-block; }
+        .menu li { flex: 1; }
