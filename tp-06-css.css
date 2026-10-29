@@ -1,0 +1,83 @@
+* { margin: 0; box-sizing: border-box; }
+
+.site-header {
+  display: flex;
+  justify-content: space-between;   /* logo à gauche, menu à droite */
+  align-items: center;              /* alignés verticalement */
+  padding: 1rem 2rem;
+  background: #ffffff;
+  color: #1d1717;
+}
+
+.nav { display: flex; gap: 1.5rem; list-style: none; }
+.nav a { color: #221810; text-decoration: none; }
+.nav a:hover { text-decoration: underline; }
+
+.carte0 {
+  background-color: #704a2a;
+
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.carte1 {
+ align-items: center;
+ color: rgb(255, 255, 255);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: .75rem;
+}
+
+.bouton {
+background-color: #e9ca18;
+color: black;
+border: #1d1717;
+bord
+}
+
+.carte2 {
+background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;   /* titre en haut, philosophie en bas */
+  min-height: 5vh;                 /* la bannière occupe l'écran */
+  padding: 4.3rem 15rem;
+}
+
+.carte2 img { display: block; margin-left: auto; }
+
+
+.fooot {
+text-align: center;
+align-content: center;
+min-height: 8vh; 
+background-color: #272626;
+color: rgb(255, 255, 255);
+}
+
+
+
+
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+.bouton {
+  display: inline-block;
+  padding: .75rem 1.5rem;
+  background-color: #d3a200;
+  color: #0a0a0a;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color .2s ease;
+}
+
+.bouton:hover { background-color: #5a3f2c; }
+
+.bouton:focus-visible {
+  outline: 2px solid #6f4e37;
+  outline-offset: 3px;
+}
